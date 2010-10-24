@@ -1,11 +1,3 @@
 # cache files
 *.bak
 *~
-
-# intermediates
-*.[oad]
-
-# products
-*.lib
-*.exe
-*.la

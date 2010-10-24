@@ -1,0 +1,8 @@
+# Products
+Debug+Asserts/
+
+# Generated
+Makefile.common
+*.log
+*.status
+
