@@ -1,22 +1,12 @@
-#
-# Indicate where we are relative to the top of the source tree.
-#
-LEVEL=../..
+GAIUS_LEVEL := ../..
 
-#
-# Give the name of the tool.
-#
-TOOLNAME=fex
+TOOLNAME = fex
+NO_INSTALL = 1
 
-#
-# List libraries that we'll need
-# We use LIBS because sample is a dynamic library.
-#
-USEDLIBS = 
-LINK_COMPONENTS = support
+# No plugins, optimize startup time.
+TOOL_NO_EXPORTS = 1
 
-#
-# Include Makefile.common so we know what to do.
-#
-include $(LEVEL)/Makefile.common
+LINK_COMPONENTS := support
+USEDLIBS := clangFrontend.a clangParse.a clangLex.a clangBasic.a
 
+include $(GAIUS_LEVEL)/Makefile

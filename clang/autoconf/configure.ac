@@ -1,11 +1,7 @@
 dnl **************************************************************************
 dnl * Initialize
 dnl **************************************************************************
-AC_INIT([[[FEX]]],[[[0.01]]],[colgur@gmail.com])
-
-dnl Prompt for the LLVM path
-LLVM_SRC_ROOT="/home/crc/builds/llvm"
-LLVM_OBJ_ROOT="/home/crc/builds/llvm"
+AC_INIT([llvm-gaius],[0.01],[colgur@gmail.com])
 
 dnl Tell autoconf that this is an LLVM project being configured
 dnl This provides the --with-llvmsrc and --with-llvmobj options

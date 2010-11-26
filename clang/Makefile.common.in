@@ -1,5 +1,5 @@
 # Set the name of the project here
-PROJECT_NAME := llvm-apollo
+PROJECT_NAME := llvm-gaius
 PROJ_VERSION := 0.1
  
 # Set this variable to the top of the LLVM source tree.
